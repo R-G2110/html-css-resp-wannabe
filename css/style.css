@@ -126,42 +126,56 @@ img {
 
 /************************************************
     SOLUZIONE RESPONSIVE
- ************************************************/
+ *********************************
+ ***************/
 
- @media screen and (max-width: 768px) {
+ /* Bonus */
+@media screen and (max-width: 1160px) {
     .container {
-         width: 758px;
-        }
+      width: 790px;  
+      
+    }
 
-        .why-us .col-right {
-        width: 62%;
+    .card {
+        overflow-y: auto;
+    }
 }
- }
 
- 
- @media screen and (max-width: 480px) {
-     .container {
-         width: 438px;
-        }
+/* Tablet 768px */
+@media screen and (max-width: 768px) {
+    .container {
+        width: 758px;
+    }
 
-        .row {
-            flex-direction: column;
-            align-items: center;
-        }
+    .why-us .col-right {
+        width: 62%;
+    }
+}
 
-        .lessons .col,
-        .steps .col,
-        .why-us .col-left {
-            width: 100%;
-        }
+ /* Mobile 480px */
+@media screen and (max-width: 480px) {
+    .container {
+        width: 438px;
+    }
 
-        .why-us .col-right {
-            width: 85%;
-        }
+    .row {
+        flex-direction: column;
+        align-items: center;
+    }
 
-        .card {
-            margin-bottom: 60px;
-        }
+    .lessons .col,
+    .steps .col,
+    .why-us .col-left {
+        width: 100%;
+    }
+
+    .why-us .col-right {
+        width: 85%;
+    }
+
+    .card {
+        margin-bottom: 60px;
+    }
      
-    } 
+} 
     
